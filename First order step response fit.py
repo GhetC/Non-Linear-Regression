@@ -56,7 +56,6 @@ def Exp_fit(x_lst, y_lst, n):
   RSS_tot=RSS_sol(K,T)
   
 
-
   R_squared=R_Squared(RSS_tot,total_var)
 
   return x_fit, y_fit, f, R_squared
